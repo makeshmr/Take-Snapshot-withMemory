@@ -4,7 +4,7 @@
 
 The parameters used in the command are:
 
-- ``-V**M**`: Specifies the virtual machine for which the snapshot is to be created.
+- **`-VM`**: Specifies the virtual machine for which the snapshot is to be created.
 - **`-Name`**: Specifies a name for the new snapshot.
 - **`-Description`:** Specifies a description for the new snapshot. In this case, it includes the current date/time using the PowerShell cmdlet **`Get-Date`**.
 - **`-Memory`:** Indicates that the snapshot should include the virtual machine's memory state in addition to the disk state.
